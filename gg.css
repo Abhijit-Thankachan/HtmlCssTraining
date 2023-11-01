@@ -120,25 +120,29 @@ body{
     left: 500px;
 }
 input[type=text] {
-    width: 30%;
+    width: 500px;
+    height: 80px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
   }
 input[type=number] {
-    width: 30%;
+    width: 500px;
+    height: 80px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
   }
   input[type=date] {
-    width: 30%;
+    width: 500px;
+    height: 80px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
   }
   .appointmentform{
-    width: 30%;
+    width: 500px;
+    height: 80px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -147,13 +151,13 @@ input[type=number] {
   .float{
     position: absolute;
     width: 1800px;
-    height: 500px;
+    height: 300px;
     top: 850px;
     bottom: 50px;
-    left: 260px;
+    left: 280px;
     border-style: solid white;
     padding-left: 50px;
-    background-color: white;
+    background-color:white;
     padding-top: 15px;
     padding-bottom: 10px;
     padding-right: 50px;
@@ -161,9 +165,58 @@ input[type=number] {
     border-radius: 0.5;
   }
   #dropdown{
-    width: 30%;
-    height: 50px;
+    width: 500px;
+    height: 80px;
   }
   .Surgery{
     padding-top: 250px;
+    flex:1;
   }
+  .Departments{
+    display: flex;
+  }
+  .MedicalOncology{
+    flex:1;
+    padding-top: 250px;
+  }
+  .Ent{
+    flex:1;
+    padding-top: 250px;
+
+  }
+  #dept{
+    padding-top: 100px;
+    margin-left: 30px;
+  }
+  .designbg{
+    position: relative;
+    display: flex;
+    background-color:#E8F9F6;
+    margin-top: 250px;
+    width: 2150px;
+    height: 890px;
+    margin-left: 210px;
+  }
+#dbg{
+    position: absolute;
+}
+#staff{
+    position: absolute;
+}
+.whygg{
+    flex: 1;
+    margin-left: 250px;
+    margin-top: 200px;
+}
+.designimg{
+    flex: 1;
+}
+.ticks{
+    list-style-image: url("tick.jpg");
+    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.whygg h1{
+    font-weight: bolder;
+}
