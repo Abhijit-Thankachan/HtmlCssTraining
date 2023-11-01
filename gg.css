@@ -98,7 +98,7 @@ body{
 }
 .button{
     position: absolute;
-    background-color: #4CAF50;
+    background-color: #17C1A3;;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -146,7 +146,7 @@ input[type=number] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    background-color: #4CAF50;
+    background-color: #17C1A3;
   }
   .float{
     position: absolute;
@@ -219,4 +219,77 @@ input[type=number] {
 }
 .whygg h1{
     font-weight: bolder;
+}
+.Specialists{
+    height: 100vh;
+    display: flex;
+    margin-left: 100px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    width: 100%;
+    
+}
+#specialh{
+    /* text-align: center; */
+    left: 1150px;
+    position: absolute;
+}
+#specialp{
+    left: 1000px;
+
+    position: absolute;
+}
+.Lisha {
+    flex:1;
+    padding-top: 100px;
+    margin-left: 30px;
+}
+.Chris 
+{
+    flex:1;
+    padding-top: 100px;
+    margin-left: 30px;
+}
+.Linda {
+    flex:1;
+    padding-top: 100px;
+    margin-left: 30px;
+}
+.Sandra{
+    flex:1;
+    padding-top: 100px;
+    margin-left: 50px;
+}
+.viewall{
+    width: 300px;
+    height: 80px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #17C1A3;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 32.4px;
+    margin-top: 100px;
+}
+.Specialists h1{
+    font-weight: 900px;
+    font-size: 45px;
+    line-height: 10px;
+}
+.Specialists p{
+    font-weight: 400px;
+    font-size: 22px;
+    line-height: 10px;
+    opacity: 0.5;
 }
