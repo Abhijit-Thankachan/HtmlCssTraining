@@ -1,0 +1,169 @@
+.navmenu{
+    display: inline-block;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.head{
+    display: flex;
+    width: 100%;
+    background-color:#F5F5F5;
+    width: 1920px;
+    height: 52px;
+ 
+}
+.social p{
+    padding-bottom: 2px;
+
+}
+.contact{
+    display:flex;
+    position:absolute;
+    left: 620px;
+    padding-right: 110px;
+}
+.social{
+    display: flex;
+    margin-left: 170px;
+}
+.navmenu{
+    width: 1227px;
+    height: 28px;
+    top: 89px;
+    left: 567px;
+    width: 70%;
+    justify-content: space-around;
+    text-align: right;
+    margin-right: 100px;
+    padding-top: 20px;
+
+}
+.menu{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.logo{
+   padding-right: 15px;
+   padding-left: 15px;
+   
+}
+.gglogo{
+    margin-left: 120px;
+    width: 293px;
+    height: 76px;
+}
+.icon{
+    padding-right: 30px;
+}
+.contact{
+    padding-left:900px ;
+    font-weight: 400px;
+}
+.ab{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 1000px;
+    color: black;
+    line-height: 40px;
+}
+.walldiv{
+    width: 2150px;
+    height: 890px;
+    padding-right: 100px;
+    border-radius: 6px;
+
+}
+.coverpage{
+    position: relative;
+    text-align: center;
+    margin-left: 126px;
+}
+#love{
+    position: absolute;
+    bottom: 30px;
+    top: 170px;
+    left: 200px;
+    font-weight: 50px;
+    font-size: 70px;
+    text-align: left;
+}
+#subtext{
+    position: absolute;
+    top: 430px;
+    left: 204px;
+    font-size: 25px;
+    text-align: left;
+}
+.button{
+    position: absolute;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    line-height: 32.4px;
+    top: 530px;
+    left: 200px;
+    width: 270px;
+
+}
+.playbutton{
+    position: absolute;
+    top: 530px;
+    left: 500px;
+}
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+input[type=number] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=date] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .appointmentform{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #4CAF50;
+  }
+  .float{
+    position: absolute;
+    width: 1800px;
+    height: 500px;
+    top: 850px;
+    bottom: 50px;
+    left: 260px;
+    border-style: solid white;
+    padding-left: 50px;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 0.5;
+  }
+  #dropdown{
+    width: 30%;
+    height: 50px;
+  }
+  .Surgery{
+    padding-top: 250px;
+  }
