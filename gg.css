@@ -5,6 +5,10 @@
     height: 52px;
  
 }
+select{
+  font-size: medium;
+  opacity: 0.8;
+}
 .contact{
     display:flex;
     position:absolute;
@@ -494,10 +498,13 @@ input[type=number] {
   .footerBottom {
     display: flex;
   }
+
+  .footerBottom div{
+    width:25%
+  }
   .footerBottomText {
     display: flex;
     flex: 2;
-    margin-top: 30px;
   }
   .footerBottomSocial {
     flex: 1;
@@ -511,19 +518,84 @@ input[type=number] {
     font-family: Inter;
   }
   .footerBottomTextLeft {
-    flex: 1;
+    display: flex;
+    
+    
    
   }
+  .footerBottomTextLeft img{
+    margin-block:auto;
+    width:30px;
+    height: 30px;
+    margin-inline:10px;
+  }
+  .footerBottomTextLeft p{
+    margin-block: auto;
+    position: relative;
+    top: 25px;
+    line-height: 30px;
+  }
+
   .footerBottomTextMid {
-    flex: 1;
+    display: flex;
     margin-left: 80px;
   }
   .footerBottomTextRight {
-    flex: 1;
+    display: flex;
+  }
+  .mailcontact{
+    display: flex;
+  }
+  .mailcontact img{
+    flex:1;
+  }
+  .mailcontact p{
+    flex: 1;;
+  }
+
+  .footerBottomTextMid img{
+    margin-block:auto;
+    width:30px;
+    height: 30px;
+    margin-inline:10px;
+  }
+  .footerBottomTextRight img{
+    margin-block:auto;
+    width:30px;
+    height: 30px;
+    margin-inline:10px;
+    
+  }
+  .footerBottomTextMid img{
+    margin-block:auto;
+    width:30px;
+    height: 30px;
+    margin-inline:10px;
+  }
+  .footerBottomTextMid ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-block: auto;
+    padding-left: 10px;
+    margin-left: -50px;
+    position: relative;
+    top: 30px;
+    line-height: 50px;
+  }
+  .footerBottomTextRight ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-block: auto;
+    padding-left: 10px;
+    margin-left: -50px;
+    position: relative;
+    top: 30px;
+    line-height: 50px;
   }
   .footerBottomText p {
     margin-left: 20px;
-    margin-top: -15px;
+    margin-block: auto;
+
   }
   .footerBottomSocial{
     font-weight:900;
@@ -539,4 +611,23 @@ input[type=number] {
   }
 #description{
   opacity: 0.5;
+}
+.footerlogo{
+  padding-right: 15px;
+  width: 50px;
+  height: 50px;
+}
+#socialhead{
+  font-size: 28px;
+}
+.footerimg{
+  flex:1;
+  border: solid;
+  margin-right: 10px;
+}
+.footertext{
+  flex:1;
+  margin-left: 100px;
+  border: solid;
+  width: 950px;
 }
