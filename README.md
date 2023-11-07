@@ -13,7 +13,7 @@ The page has the following contents included:
 5. Why GG is better section
 6. Facilities and Activities
 7. You May Be Interested In section
-8. Newsletter
+8. Newsletter and Footer
 ## Screenshots
 1. Navbar
 
@@ -36,6 +36,6 @@ The page has the following contents included:
 7. You May Be Interested In section
 
 <img width="960" alt="Interests" src="https://github.com/Abhijit-Thankachan/HtmlCssTraining/assets/74815617/42152a66-c987-4ca7-b154-3188fc9cfa9c">
-8. Newsletter
+8. Newsletter and Footer
 
 <img width="960" alt="newsletter" src="https://github.com/Abhijit-Thankachan/HtmlCssTraining/assets/74815617/bfe0eee2-3f0e-4c9e-9e6f-a9f28545d654">
